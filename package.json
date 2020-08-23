@@ -1,0 +1,64 @@
+{
+  "name": "website.v2",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "default.php",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "htmlhint": "^0.14.1",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.0.5",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "coverage": "./node_modules/.bin/jest --coverage ",
+    "check format": "npx prettier -c",
+    "format": "eslint --fix && npx prettier -w ./*"
+  },
+  "jest": {
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.*": "npm run format",
+    "styles/**": "npm run format",
+    "scripts/**": "npm run format",
+    "src/**/*.js": [
+      "npm run format",
+      "./node_modules/.bin/jest --findRelatedTests"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jQwitt/website.v2.git"
+  },
+  "author": "Jack Witt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jQwitt/website.v2/issues"
+  },
+  "homepage": "https://github.com/jQwitt/website.v2#readme"
+}

@@ -1,0 +1,7 @@
+# IGNORE FILES
+/node_modules
+/styles
+/coverage
+*.html
+*.php
+*.config.js
