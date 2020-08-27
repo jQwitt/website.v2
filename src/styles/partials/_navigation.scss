@@ -1,0 +1,28 @@
+@import './sizing';
+@import './colors';
+
+.navigation {
+  background-color: white;
+  z-index: 100;
+
+  & > h1 {
+    margin-bottom: $three;
+    padding-bottom: $two;
+  }
+
+  @media (min-width: 992px) {
+    box-shadow: $one 0 $one ($half / 2) $grey-light;
+    min-height: 100vh;
+  }
+  @media (max-width: 992px) {
+    box-shadow: 0 $one $one ($half / 2) $grey-light;
+    min-width: 100vw;
+    padding-right: 0;
+  }
+
+  .hide-mobile {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
