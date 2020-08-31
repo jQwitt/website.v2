@@ -2,6 +2,7 @@
 /node_modules
 /styles
 /coverage
+yarn.lock
 *.html
 *.php
 *.config.js

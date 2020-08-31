@@ -1,0 +1,48 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import './colors';
+@import './sizing';
+
+#root {
+  background-color: $grey-light;
+
+  & > div {
+    box-shadow: 0 0 $half $half $grey-medium-light;
+    background-color: white;
+  }
+}
+
+// common classes
+.full-viewport {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.theme-bright {
+  color: $black;
+  background-color: $white;
+}
+
+.theme-dark {
+  color: $white;
+  background-color: $black;
+}
+
+h1 {
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 900;
+  font-size: $four + $three;
+
+  &.underlined {
+    border-bottom: $half solid $black;
+  }
+  &.padded {
+    padding-top: $two;
+  }
+}
+
+h3 {
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 400;
+  margin-bottom: $half;
+}

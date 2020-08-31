@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+#root {
+  background-color: #f2f2f2;
+}
+
+#root > div {
+  -webkit-box-shadow: 0 0 0.125rem 0.125rem #e6e6e6;
+  box-shadow: 0 0 0.125rem 0.125rem #e6e6e6;
+  background-color: white;
+}
+
+.full-viewport {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.theme-bright {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.theme-dark {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h1.underlined {
+  border-bottom: 0.125rem solid #000000;
+}
+
+h1.padded {
+  padding-top: 0.5rem;
+}
+
+h3 {
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 400;
+  margin-bottom: 0.125rem;
+}
+
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 27/08/2020 19:30
+    */
+@font-face {
+  font-family: 'Flaticon';
+  src: url('../Flaticon/Flaticon.eot');
+  src: url('../Flaticon/Flaticon.eot?#iefix') format('embedded-opentype'),
+    url('../Flaticon/Flaticon.woff2') format('woff2'),
+    url('../Flaticon/Flaticon.woff') format('woff'),
+    url('../Flaticon/Flaticon.ttf') format('truetype'),
+    url('../Flaticon/Flaticon.svg#Flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Flaticon';
+    src: url('../Flaticon/Flaticon.svg#Flaticon') format('svg');
+  }
+}
+
+.fi:before {
+  display: inline-block;
+  font-family: 'Flaticon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.flaticon-add:before {
+  content: '\f100';
+}
+
+.flaticon-idea:before {
+  content: '\f101';
+}
+
+.flaticon-success:before {
+  content: '\f102';
+}
+
+.flaticon-error:before {
+  content: '\f103';
+}
+
+.flaticon-map-location:before {
+  content: '\f104';
+}
+
+.flaticon-download:before {
+  content: '\f105';
+}
+
+.flaticon-browser:before {
+  content: '\f106';
+}
+
+.flaticon-video-camera:before {
+  content: '\f107';
+}
+
+.flaticon-email:before {
+  content: '\f108';
+}
+
+.flaticon-linkedin:before {
+  content: '\f109';
+}
+
+.flaticon-coding:before {
+  content: '\f10a';
+}
+
+.flaticon-graduation:before {
+  content: '\f10b';
+}
+
+.flaticon-substract:before {
+  content: '\f10c';
+}
+
+.flaticon-left-arrow:before {
+  content: '\f10d';
+}
+
+.flaticon-down-arrow:before {
+  content: '\f10e';
+}
+
+.flaticon-up-arrow:before {
+  content: '\f10f';
+}
+
+.flaticon-right-arrow:before {
+  content: '\f110';
+}
+
+.flaticon-trophy:before {
+  content: '\f111';
+}
+
+.flaticon-coding-1:before {
+  content: '\f112';
+}
+
+.small [class^='flaticon-']:before,
+.small [class*=' flaticon-']:before,
+.small [class^='flaticon-']:after,
+.small [class*=' flaticon-']:after {
+  font-size: 1rem;
+}
+
+.navigation {
+  background-color: white;
+  z-index: 100;
+}
+
+.navigation > h1 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .navigation {
+    -webkit-box-shadow: 0.25rem 0 0.25rem 0.0625rem #f2f2f2;
+    box-shadow: 0.25rem 0 0.25rem 0.0625rem #f2f2f2;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .navigation {
+    -webkit-box-shadow: 0 0.25rem 0.25rem 0.0625rem #f2f2f2;
+    box-shadow: 0 0.25rem 0.25rem 0.0625rem #f2f2f2;
+    min-width: 100vw;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation .hide-mobile {
+    display: none;
+  }
+}
+
+.social-media-links i {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .content {
+    margin-left: 35%;
+  }
+}
+
+.content .content-item {
+  min-height: 200vh;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(red),
+    to(blue)
+  );
+  background: linear-gradient(red, blue);
+}
+/*# sourceMappingURL=styles.css.map */

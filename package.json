@@ -4,15 +4,20 @@
   "description": "A personal website",
   "main": "default.php",
   "dependencies": {
-    "react": "^16.13.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^10.4.9",
+    "@testing-library/user-event": "^12.1.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.3.0",
     "babel-polyfill": "^6.26.0",
     "enzyme": "^3.11.0",
-    "eslint": "^7.7.0",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
@@ -21,16 +26,17 @@
     "eslint-plugin-react-hooks": "^4.1.0",
     "htmlhint": "^0.14.1",
     "husky": "^4.2.5",
-    "jest": "^26.4.2",
+    "jest": "24.9.0",
     "lint-staged": "^10.2.13",
-    "prettier": "^2.0.5",
-    "react-dom": "^16.13.1"
+    "prettier": "^2.0.5"
   },
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "coverage": "./node_modules/.bin/jest --coverage ",
     "check format": "npx prettier -c",
-    "format": "eslint --fix && npx prettier -w ./*"
+    "format": "eslint --fix && npx prettier -w ./*",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "jest": {
     "coverageReporters": [
@@ -38,9 +44,9 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.*": "npm run format",
-    "styles/**": "npm run format",
-    "scripts/**": "npm run format",
+    "scripts/partials/*.scss": "npm run format",
+    "scripts/*.scss": "npm run format",
+    "scripts/*.css": "npm run format",
     "src/**/*.js": [
       "npm run format",
       "./node_modules/.bin/jest --findRelatedTests"
@@ -51,6 +57,18 @@
       "pre-commit": "lint-staged"
     }
   },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jQwitt/website.v2.git"
@@ -60,5 +78,5 @@
   "bugs": {
     "url": "https://github.com/jQwitt/website.v2/issues"
   },
-  "homepage": "https://github.com/jQwitt/website.v2#readme"
+  "homepage": "."
 }
