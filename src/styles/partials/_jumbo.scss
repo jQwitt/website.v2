@@ -1,0 +1,14 @@
+@import './sizing';
+@import './colors';
+
+.content-jumbo {
+  h2 {
+    font-size: $five;
+    padding-left: $four;
+  }
+  .main-icon {
+    @media (max-width: 992px) {
+      padding-top: 30vh;
+    }
+  }
+}

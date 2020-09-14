@@ -2,12 +2,5 @@
 @import './colors';
 
 .content {
-  @media (min-width: 992px) {
-    margin-left: 35%;
-  }
-
-  .content-item {
-    min-height: 200vh; // for testing purposes
-    background: linear-gradient(red, blue);
-  }
+  overflow: auto;
 }

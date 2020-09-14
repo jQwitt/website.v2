@@ -1,0 +1,17 @@
+@import './colors';
+@import './sizing';
+
+.content-item {
+  margin: $three 0;
+
+  p {
+    margin: 0;
+  }
+  h4 {
+    margin-top: 0.25rem;
+    margin-bottom: $one;
+  }
+  h6 {
+    color: $grey-dark;
+  }
+}

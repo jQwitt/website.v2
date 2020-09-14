@@ -1,0 +1,11 @@
+@import './sizing';
+@import './colors';
+
+.content-card {
+  & > .img {
+    margin-top: $four;
+    background-color: $grey-dark;
+    min-height: 10rem;
+    width: 100%;
+  }
+}

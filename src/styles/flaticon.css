@@ -48,12 +48,12 @@
 .large:before,
 .large:after {
   margin: 1.25rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .xlarge:before,
 .xlarge:after {
   margin: 1.5rem;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .jumbo:before,
 .jumbo:after {

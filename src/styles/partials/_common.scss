@@ -18,6 +18,11 @@
   margin: 0;
 }
 
+.half-viewport {
+  min-height: 50vh;
+  margin: 0;
+}
+
 .theme-bright {
   color: $black;
   background-color: $white;
@@ -45,4 +50,34 @@ h3 {
   font-family: 'Lato', 'sans-serif';
   font-weight: 400;
   margin-bottom: $half;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .bottom-right-mobile {
+    position: absolute;
+    bottom: $one;
+    right: 0;
+    width: auto;
+  }
+  .top-right-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+.center-bottom {
+  position: absolute;
+  bottom: 0;
 }

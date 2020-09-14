@@ -1,0 +1,13 @@
+@import './sizing';
+@import './colors';
+
+.header-icon {
+  padding: 0;
+  i:before {
+    margin-left: 0;
+  }
+
+  &.underlined {
+    border-bottom: $half solid $black;
+  }
+}

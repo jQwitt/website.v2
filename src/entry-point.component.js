@@ -5,7 +5,7 @@ import './styles/partials/_common.scss';
 class EntryPoint extends React.Component {
   render() {
     return (
-      <div className="container-xl">
+      <div className="container-fluid px-xl-4 px-lg-4">
         <div className="row">
           <Navigation />
           <Content />
