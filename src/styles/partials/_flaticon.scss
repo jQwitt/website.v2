@@ -113,12 +113,3 @@ $font-Flaticon-up-arrow: '\f10f';
 $font-Flaticon-right-arrow: '\f110';
 $font-Flaticon-trophy: '\f111';
 $font-Flaticon-coding-1: '\f112';
-
-.small {
-  [class^='flaticon-']:before,
-  [class*=' flaticon-']:before,
-  [class^='flaticon-']:after,
-  [class*=' flaticon-']:after {
-    font-size: 1rem;
-  }
-}

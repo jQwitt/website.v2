@@ -1,0 +1,13 @@
+@import './sizing';
+@import './colors';
+
+.content-footer {
+  margin-bottom: $three;
+
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    color: $black;
+  }
+}

@@ -16,13 +16,12 @@
   }
   @media (max-width: 992px) {
     box-shadow: 0 $one $one ($half / 2) $grey-light;
-    min-width: 100vw;
-    padding-right: 0;
-  }
+    margin: 0;
+    padding-bottom: $two;
 
-  .hide-mobile {
-    @media (max-width: 768px) {
-      display: none;
+    .icon {
+      padding-top: $one;
+      margin-right: 15px;
     }
   }
 }

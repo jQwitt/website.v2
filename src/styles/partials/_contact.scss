@@ -1,0 +1,10 @@
+@import './sizing';
+@import './colors';
+
+.contact {
+  h1 {
+    margin-bottom: $three;
+  }
+
+  margin: $six + $six 0;
+}

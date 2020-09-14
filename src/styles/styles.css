@@ -44,6 +44,36 @@ h3 {
   margin-bottom: 0.125rem;
 }
 
+.bold {
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .bottom-right-mobile {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0;
+    width: auto;
+  }
+  .top-right-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+.center-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
 /*
     Flaticon icon font: Flaticon
     Creation date: 27/08/2020 19:30
@@ -157,13 +187,6 @@ h3 {
   content: '\f112';
 }
 
-.small [class^='flaticon-']:before,
-.small [class*=' flaticon-']:before,
-.small [class^='flaticon-']:after,
-.small [class*=' flaticon-']:after {
-  font-size: 1rem;
-}
-
 .navigation {
   background-color: white;
   z-index: 100;
@@ -186,14 +209,12 @@ h3 {
   .navigation {
     -webkit-box-shadow: 0 0.25rem 0.25rem 0.0625rem #f2f2f2;
     box-shadow: 0 0.25rem 0.25rem 0.0625rem #f2f2f2;
-    min-width: 100vw;
-    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0.5rem;
   }
-}
-
-@media (max-width: 768px) {
-  .navigation .hide-mobile {
-    display: none;
+  .navigation .icon {
+    padding-top: 0.25rem;
+    margin-right: 15px;
   }
 }
 
@@ -201,21 +222,54 @@ h3 {
   color: black;
 }
 
-@media (min-width: 992px) {
-  .content {
-    margin-left: 35%;
+.content {
+  overflow: auto;
+}
+
+.content-jumbo h2 {
+  font-size: 4rem;
+  padding-left: 2rem;
+}
+
+@media (max-width: 992px) {
+  .content-jumbo .main-icon {
+    padding-top: 30vh;
   }
 }
 
-.content .content-item {
-  min-height: 200vh;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(red),
-    to(blue)
-  );
-  background: linear-gradient(red, blue);
+.header-icon {
+  padding: 0;
+}
+
+.header-icon i:before {
+  margin-left: 0;
+}
+
+.header-icon.underlined {
+  border-bottom: 0.125rem solid #000000;
+}
+
+.content-item {
+  margin: 1rem 0;
+}
+
+.content-item p {
+  margin: 0;
+}
+
+.content-item h4 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.content-item h6 {
+  color: #bfbfbf;
+}
+
+.content-card > .img {
+  margin-top: 2rem;
+  background-color: #bfbfbf;
+  min-height: 10rem;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
