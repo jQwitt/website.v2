@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentItem renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid content-item"
+  >
+    <div
+      class="row justify-content-start"
+    />
+    <div
+      class="row"
+    >
+      <div
+        class="col-xl-3 col-lg-3 col-md-3 col-12"
+      >
+        <p
+          class="bold"
+        />
+        <h6 />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

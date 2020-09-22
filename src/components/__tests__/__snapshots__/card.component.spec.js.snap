@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-12 col-md-6 col-lg-4 col-xl-4 content-card"
+  >
+    <div
+      class="img"
+    />
+    <div
+      class="text"
+    />
+  </div>
+</DocumentFragment>
+`;

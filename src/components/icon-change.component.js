@@ -13,6 +13,7 @@ const IconChange = (props) => {
   return (
     <div className={className + ' icon'} onClick={toggleContainer}>
       <i
+        data-testid="togglesIcon"
         className={'flaticon-' + (icon ? firstIcon : secondIcon) + ' medium'}
       ></i>
     </div>

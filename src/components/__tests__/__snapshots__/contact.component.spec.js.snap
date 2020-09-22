@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-12 text-center contact"
+  >
+    <div>
+      <h1>
+        Lets Talk!
+      </h1>
+      <div
+        class="social-media-links d-flex justify-content-center"
+      >
+        <a
+          href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+        >
+          <i
+            class="flaticon-linkedin large"
+          />
+        </a>
+        <a
+          href="mailto:jackwittbiz@gmail.com"
+        >
+          <i
+            class="flaticon-email large"
+          />
+        </a>
+        <a
+          href="https://github.com/jQwitt"
+        >
+          <i
+            class="flaticon-browser large"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

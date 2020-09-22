@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-xl-3 col-lg-4 col-12 py-lg-3 row navigation position-fixed"
+  >
+    <div
+      class="col-md-12 align-self-start"
+    >
+      <h1
+        class="underlined padded"
+      >
+        website.v2
+      </h1>
+      <div
+        class="navigation-links"
+      >
+        <h3
+          id="experience"
+        >
+          experience
+        </h3>
+        <h3
+          id="projects"
+        >
+          projects
+        </h3>
+        <h3
+          id="education"
+        >
+          education
+        </h3>
+        <h3
+          id="contact"
+        >
+          contact
+        </h3>
+      </div>
+    </div>
+    <div
+      class="col-12 align-self-end bottom-right-mobile"
+    >
+      <div
+        class="social-media-links d-flex justify-content-center"
+      >
+        <a
+          href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+        >
+          <i
+            class="flaticon-linkedin medium"
+          />
+        </a>
+        <a
+          href="mailto:jackwittbiz@gmail.com"
+        >
+          <i
+            class="flaticon-email medium"
+          />
+        </a>
+        <a
+          href="https://github.com/jQwitt"
+        >
+          <i
+            class="flaticon-browser medium"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="top-right-mobile hidden-desktop icon"
+    >
+      <i
+        class="flaticon-add medium"
+        data-testid="togglesIcon"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

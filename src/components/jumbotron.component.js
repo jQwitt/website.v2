@@ -7,7 +7,9 @@ const Jumbotron = (props) => {
   return (
     <div className="col-12 row full-viewport content-jumbo">
       <div className="mx-auto main">
-        <Signature />
+        <>
+          <Signature />
+        </>
       </div>
       <div className="col-12 text-center center-bottom">
         <i className="flaticon-down-arrow large" />

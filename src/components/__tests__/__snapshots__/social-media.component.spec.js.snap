@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMedia renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="social-media-links d-flex justify-content-center"
+  >
+    <a
+      href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+    >
+      <i
+        class="flaticon-linkedin medium"
+      />
+    </a>
+    <a
+      href="mailto:jackwittbiz@gmail.com"
+    >
+      <i
+        class="flaticon-email medium"
+      />
+    </a>
+    <a
+      href="https://github.com/jQwitt"
+    >
+      <i
+        class="flaticon-browser medium"
+      />
+    </a>
+  </div>
+</DocumentFragment>
+`;
