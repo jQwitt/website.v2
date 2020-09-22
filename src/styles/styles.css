@@ -14,6 +14,11 @@
   margin: 0;
 }
 
+.half-viewport {
+  min-height: 50vh;
+  margin: 0;
+}
+
 .theme-bright {
   color: #000000;
   background-color: #ffffff;
@@ -266,10 +271,26 @@ h3 {
   color: #bfbfbf;
 }
 
+.content-card {
+  padding: 0.5rem;
+}
+
 .content-card > .img {
   margin-top: 2rem;
   background-color: #bfbfbf;
   min-height: 10rem;
   width: 100%;
+}
+
+.content-footer {
+  margin-bottom: 1rem;
+}
+
+.content-footer p {
+  margin-bottom: 0;
+}
+
+.content-footer a {
+  color: #000000;
 }
 /*# sourceMappingURL=styles.css.map */

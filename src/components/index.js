@@ -6,6 +6,7 @@ import Jumbotron from './jumbotron.component';
 import HeaderIcon from './header-icon.component';
 import ContentItem from './content-item.component';
 import Card from './card.component';
+import EducationItem from './education-item.component';
 import Contact from './contact.component';
 import Footer from './footer.component';
 
@@ -18,6 +19,7 @@ export {
   HeaderIcon,
   ContentItem,
   Card,
+  EducationItem,
   Contact,
   Footer,
 };

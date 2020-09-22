@@ -3,8 +3,9 @@
 
 .contact {
   h1 {
-    margin-bottom: $three;
+    font-size: $five;
+    margin-bottom: $four;
   }
 
-  margin: $six + $six 0;
+  margin: $six * 2.5 0;
 }

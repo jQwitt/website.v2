@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="col-12 text-center contact">
       <div>
         <h1>Lets Talk!</h1>
-        <SocialMedia />
+        <SocialMedia size="large" />
       </div>
     </div>
   );
