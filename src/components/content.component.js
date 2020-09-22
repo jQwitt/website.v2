@@ -4,6 +4,7 @@ import {
   HeaderIcon,
   ContentItem,
   Card,
+  EducationItem,
   Contact,
   Footer,
 } from './index';
@@ -20,26 +21,42 @@ const Content = (props) => {
             <Jumbotron />
             <HeaderIcon icon="coding-1" size="xlarge" underline={true} />
             <ContentItem
-              title="Job 1"
-              subTitle="company"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam velit ut neque porta, at maximus nisl malesuada. Sed interdum nisi in nulla aliquet, sed laoreet tellus lacinia."
+              title="Software Development Engineer Intern"
+              subTitle="Expedia Group"
+              description="Worked on Expedia's Virtual Agent Control team tasked with creating, testing, and deploying a rich information display within a configurable, embeddable UI framework. Worked closely with UI/UX, product management, and senior engineers in order to implement a refund card with cross browser and unit testing."
+              dateRange="Jun 2020 - Aug 2020"
+              misc="React, JavaScript, HTML, SASS, Selenium, Jest, Visual Studio Code"
             />
             <ContentItem
-              title="Job 2"
-              subTitle="company"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam velit ut neque porta, at maximus nisl malesuada. Sed interdum nisi in nulla aliquet, sed laoreet tellus lacinia."
+              title="Web Development Intern"
+              subTitle="Bonsai Media Group"
+              description="Utilized front-end technologies to deliver dynamic, client customized CMS sites. Through close collaboration with product managers, SEO specialists, and company management, I achieved successful E-commerce sites via Shopify and WordPress."
+              dateRange="Nov 2018 - Aug 2019"
+              misc="JavaScript, HTML/CSS, SQL, Shopify, Wordpress, Visual Studio"
             />
             <HeaderIcon icon="coding" size="xlarge" underline={true} />
           </div>
           <div className="row">
-            <Card />
-            <Card />
-            <Card />
+            <Card
+              title="website.v2"
+              subTitle="A UI focused, responsive app using modern technologies"
+            />
+            <Card
+              title="QueryCreator"
+              subTitle="Frontend build for a PHP backend to build valid SQL"
+            />
+            <Card
+              title="Website"
+              subTitle="My first four iterations of a basic HTML/CSS/JS site"
+            />
           </div>
           <div className="row">
             <HeaderIcon icon="graduation" size="xlarge" underline={true} />
-            <ContentItem width="half" title="School 1" subTitle="Degree" />
-            <ContentItem width="half" title="School 2" subTitle="Degree" />
+            <EducationItem
+              title="Seattle University"
+              subTitle="B.S. Computer Science, Mathematics Minor"
+            />
+            <EducationItem title="York School" subTitle="High School Diploma" />
           </div>
           <div className="row align-items-center">
             <Contact />

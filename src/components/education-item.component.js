@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/partials/_content-item.scss';
+import '../styles/partials/_education-item.scss';
 import '../styles/flaticon.css';
 
-const ContentItem = (props) => {
-  const { title, subTitle, description, dateRange, misc } = props;
+const EducationItem = (props) => {
+  const { title, subTitle, description } = props;
   return (
-    <div className="container-fluid content-item">
+    <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 education-item">
       <div className="row justify-content-start">
         {title || subTitle ? (
           <div className="col-auto">
@@ -16,17 +16,13 @@ const ContentItem = (props) => {
       </div>
       <div className="row">
         {description ? (
-          <div className="col-xl-9 col-lg-9 col-md-9 col-12 mb-2">
+          <div className="col-9">
             <p>{description}</p>
           </div>
         ) : null}
-        <div className="col-xl-3 col-lg-3 col-md-3 col-12">
-          <p className="bold">{dateRange}</p>
-          <h6>{misc}</h6>
-        </div>
       </div>
     </div>
   );
 };
 
-export default ContentItem;
+export default EducationItem;

@@ -2,7 +2,14 @@
 @import './colors';
 
 .content-card {
+  .text {
+    border: $half solid $grey-light;
+    border-radius: 0 0 $two $two;
+    padding: $two;
+  }
+
   & > .img {
+    border-radius: $two $two 0 0;
     margin-top: $four;
     background-color: $grey-dark;
     min-height: 10rem;
