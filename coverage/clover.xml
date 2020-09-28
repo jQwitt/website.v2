@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598480221821" clover="3.2.0">
-  <project timestamp="1598480221821" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="test.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/test.component.js">
+<coverage generated="1601104798289" clover="3.2.0">
+  <project timestamp="1601104798289" name="All files">
+    <metrics statements="32" coveredstatements="30" conditionals="36" coveredconditionals="36" methods="12" coveredmethods="10" elements="80" coveredelements="76" complexity="0" loc="32" ncloc="32" packages="1" files="12" classes="12"/>
+    <file name="card.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/card.component.js">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+    </file>
+    <file name="contact.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/contact.component.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="content-item.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/content-item.component.js">
+      <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
+    </file>
+    <file name="content.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/content.component.js">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="14" count="11" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+    </file>
+    <file name="education-item.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/education-item.component.js">
+      <metrics statements="3" coveredstatements="3" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+    </file>
+    <file name="footer.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/footer.component.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="4" count="11" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="header-icon.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/header-icon.component.js">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="8" type="cond" truecount="3" falsecount="0"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+    </file>
+    <file name="icon-change.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/icon-change.component.js">
+      <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <line num="4" count="11" type="stmt"/>
+      <line num="5" count="7" type="cond" truecount="3" falsecount="0"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="13" count="7" type="stmt"/>
+    </file>
+    <file name="index.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/index.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="jumbotron.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/jumbotron.component.js">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+    </file>
+    <file name="nav.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/nav.component.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+    </file>
+    <file name="social-media.component.js" path="/Users/jackwitt/Desktop/website/website.v2/src/components/social-media.component.js">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="13" type="stmt"/>
     </file>
   </project>
 </coverage>

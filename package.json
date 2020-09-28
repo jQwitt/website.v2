@@ -33,8 +33,7 @@
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "coverage": "./node_modules/.bin/jest --coverage ",
-    "check format": "npx prettier -c",
-    "format": "eslint --fix && npx prettier -w ./*",
+    "format": "npx prettier -w ./*",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },

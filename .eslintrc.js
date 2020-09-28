@@ -14,7 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', 'jest'],
-  ignorePAtterns: '*.config.js',
+  ignorePatterns: ['*.config.js'],
   rules: {
     indent: ['error', 2],
   },
