@@ -5,13 +5,12 @@ const IconChange = (props) => {
   const { firstIcon = 'add', secondIcon = 'substract', className = '' } = props;
   const [icon, setIcon] = useState(true);
 
-  const toggleContainer = () => {
+  const toggleIcon = () => {
     setIcon(!icon);
-    // call script
   };
 
   return (
-    <div className={className + ' icon'} onClick={toggleContainer}>
+    <div className={className + ' icon'} onClick={toggleIcon}>
       <i
         data-testid="togglesIcon"
         className={'flaticon-' + (icon ? firstIcon : secondIcon) + ' medium'}
