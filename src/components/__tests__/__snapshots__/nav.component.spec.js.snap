@@ -14,7 +14,8 @@ exports[`Navigation renders correctly snapshot 1`] = `
         website.v2
       </h1>
       <div
-        class="navigation-links"
+        class="navigation-links hidden-mobile"
+        data-testid="containerPageLinks"
       >
         <h3
           id="experience"
@@ -39,7 +40,8 @@ exports[`Navigation renders correctly snapshot 1`] = `
       </div>
     </div>
     <div
-      class="col-12 align-self-end bottom-right-mobile"
+      class="col-12 align-self-end bottom-right-mobile hidden-mobile"
+      data-testid="containerSocialLinks"
     >
       <div
         class="social-media-links d-flex justify-content-center"
@@ -68,12 +70,17 @@ exports[`Navigation renders correctly snapshot 1`] = `
       </div>
     </div>
     <div
-      class="top-right-mobile hidden-desktop icon"
+      class="top-right-mobile hidden-desktop"
+      data-testid="togglesContainer"
     >
-      <i
-        class="flaticon-add medium"
-        data-testid="togglesIcon"
-      />
+      <div
+        class=" icon"
+      >
+        <i
+          class="flaticon-add medium"
+          data-testid="togglesIcon"
+        />
+      </div>
     </div>
   </div>
 </DocumentFragment>
