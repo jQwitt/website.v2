@@ -17,26 +17,26 @@ exports[`Navigation renders correctly snapshot 1`] = `
         class="navigation-links hidden-mobile"
         data-testid="containerPageLinks"
       >
-        <h3
-          id="experience"
-        >
-          experience
-        </h3>
-        <h3
-          id="projects"
-        >
-          projects
-        </h3>
-        <h3
-          id="education"
-        >
-          education
-        </h3>
-        <h3
-          id="contact"
-        >
-          contact
-        </h3>
+        <div>
+          <h3>
+            experience
+          </h3>
+        </div>
+        <div>
+          <h3>
+            projects
+          </h3>
+        </div>
+        <div>
+          <h3>
+            education
+          </h3>
+        </div>
+        <div>
+          <h3>
+            contact
+          </h3>
+        </div>
       </div>
     </div>
     <div
@@ -48,6 +48,7 @@ exports[`Navigation renders correctly snapshot 1`] = `
       >
         <a
           href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+          name="linkedin"
         >
           <i
             class="flaticon-linkedin medium"
@@ -55,6 +56,7 @@ exports[`Navigation renders correctly snapshot 1`] = `
         </a>
         <a
           href="mailto:jackwittbiz@gmail.com"
+          name="email"
         >
           <i
             class="flaticon-email medium"
@@ -62,6 +64,7 @@ exports[`Navigation renders correctly snapshot 1`] = `
         </a>
         <a
           href="https://github.com/jQwitt"
+          name="github"
         >
           <i
             class="flaticon-browser medium"

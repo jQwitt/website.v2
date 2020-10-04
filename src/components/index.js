@@ -1,4 +1,5 @@
 import Navigation from './nav.component';
+import PageLink from './page-link.component';
 import SocialMedia from './social-media.component';
 import IconChange from './icon-change.component';
 import Content from './content.component';
@@ -12,6 +13,7 @@ import Footer from './footer.component';
 
 export {
   Navigation,
+  PageLink,
   SocialMedia,
   IconChange,
   Content,

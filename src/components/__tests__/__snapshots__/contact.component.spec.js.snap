@@ -14,6 +14,7 @@ exports[`Contact renders correctly snapshot 1`] = `
       >
         <a
           href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+          name="linkedin"
         >
           <i
             class="flaticon-linkedin large"
@@ -21,6 +22,7 @@ exports[`Contact renders correctly snapshot 1`] = `
         </a>
         <a
           href="mailto:jackwittbiz@gmail.com"
+          name="email"
         >
           <i
             class="flaticon-email large"
@@ -28,6 +30,7 @@ exports[`Contact renders correctly snapshot 1`] = `
         </a>
         <a
           href="https://github.com/jQwitt"
+          name="github"
         >
           <i
             class="flaticon-browser large"

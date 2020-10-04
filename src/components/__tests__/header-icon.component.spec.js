@@ -22,9 +22,17 @@ describe('HeaderIcon renders correctly', () => {
 
   it('conditionally renders underline', () => {
     const data = {
-      underline: true,
+      underline: false,
     };
     const { container } = render(<HeaderIcon underline={data.underline} />);
-    expect(container.firstChild.classList.contains('underlined')).toBe(true);
+    expect(container.firstChild.classList.contains('underlined')).toBe(false);
+  });
+
+  it('conditionally renders width', () => {
+    const data = {
+      fullWidth: false,
+    };
+    const { container } = render(<HeaderIcon fullWidth={data.fullWidth} />);
+    expect(container.firstChild.classList.contains('col-6')).toBe(true);
   });
 });

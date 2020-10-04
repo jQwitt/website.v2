@@ -19,7 +19,9 @@ const Content = (props) => {
         <div className="container-fluid">
           <div className="row">
             <Jumbotron />
-            <HeaderIcon icon="coding-1" size="xlarge" underline={true} />
+          </div>
+          <div className="row" name="experience">
+            <HeaderIcon icon="coding-1" />
             <ContentItem
               title="Software Development Engineer Intern"
               subTitle="Expedia Group"
@@ -34,9 +36,9 @@ const Content = (props) => {
               dateRange="Nov 2018 - Aug 2019"
               misc="JavaScript, HTML/CSS, SQL, Shopify, Wordpress, Visual Studio"
             />
-            <HeaderIcon icon="coding" size="xlarge" underline={true} />
           </div>
-          <div className="row">
+          <div className="row" name="projects">
+            <HeaderIcon icon="coding" />
             <Card
               title="website.v2"
               subTitle="A UI focused, responsive app using modern technologies"
@@ -50,18 +52,16 @@ const Content = (props) => {
               subTitle="My first four iterations of a basic HTML/CSS/JS site"
             />
           </div>
-          <div className="row">
-            <HeaderIcon icon="graduation" size="xlarge" underline={true} />
+          <div className="row" name="education">
+            <HeaderIcon icon="graduation" />
             <EducationItem
               title="Seattle University"
               subTitle="B.S. Computer Science, Mathematics Minor"
             />
             <EducationItem title="York School" subTitle="High School Diploma" />
           </div>
-          <div className="row align-items-center">
+          <div className="row align-items-center" name="contact">
             <Contact />
-          </div>
-          <div className="row">
             <Footer />
           </div>
         </div>
