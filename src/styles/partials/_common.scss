@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 @import './colors';
 @import './sizing';
+@import './animations';
+@import './loader';
 
 #root {
   background-color: $grey-light;
@@ -89,57 +91,11 @@ h6 {
   bottom: 0;
 }
 
-// loading page - move to partial
-#loading-page {
-  z-index: 99998;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: white;
-  text-align: center;
-
-  #loading-icon {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    div {
-      height: $five;
-      width: $five;
-      margin: 0 auto;
-      border-radius: $five;
-      border: $one solid $black;
-      border-top: $one solid red;
-      animation: spin 1s linear infinite;
-    }
-  }
+.pulse {
+  animation: pulse 1s linear infinite;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
+// dev only
 #construction-banner {
   z-index: 99999;
   position: fixed;

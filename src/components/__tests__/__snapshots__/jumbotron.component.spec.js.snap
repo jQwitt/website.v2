@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbotron renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-12 row full-viewport content-jumbo"
+  >
+    <div
+      class="mx-auto main"
+    >
+      <svg />
+    </div>
+    <div
+      class="col-12 text-center center-bottom"
+    >
+      <i
+        class="flaticon-down-arrow large pulse"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

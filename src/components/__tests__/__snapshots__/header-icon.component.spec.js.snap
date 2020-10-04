@@ -3,10 +3,10 @@
 exports[`HeaderIcon renders correctly snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="ml-3 col-6 header-icon"
+    class="ml-3 header-icon underlined col-12"
   >
     <i
-      class="flaticon-add "
+      class="flaticon-add xlarge"
     />
   </div>
 </DocumentFragment>

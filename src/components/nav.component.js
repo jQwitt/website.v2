@@ -1,5 +1,5 @@
 import React from 'react';
-import { SocialMedia, IconChange } from './index';
+import { PageLink, SocialMedia, IconChange } from './index';
 import '../styles/partials/_navigation.scss';
 import '../styles/flaticon.css';
 
@@ -26,10 +26,10 @@ class Navigation extends React.Component {
             className={'navigation-links' + (!expanded ? ' hidden-mobile' : '')}
             data-testid="containerPageLinks"
           >
-            <h3 id="experience">experience</h3>
-            <h3 id="projects">projects</h3>
-            <h3 id="education">education</h3>
-            <h3 id="contact">contact</h3>
+            <PageLink nameToLink="experience" />
+            <PageLink nameToLink="projects" />
+            <PageLink nameToLink="education" />
+            <PageLink nameToLink="contact" />
           </div>
         </div>
         <div

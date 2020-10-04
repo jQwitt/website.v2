@@ -1,1 +1,1 @@
-module.exports = 'signature-svg';
+module.exports = 'test.file';

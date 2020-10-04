@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content renders correctly snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-12 row mx-auto"
+  >
+    <div
+      class="col-xl-3 col-lg-4"
+    />
+    <div
+      class="col-xl-9 col-lg-8 col-12 content"
+    >
+      <div
+        class="container-fluid"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-12 row full-viewport content-jumbo"
+          >
+            <div
+              class="mx-auto main"
+            >
+              <svg />
+            </div>
+            <div
+              class="col-12 text-center center-bottom"
+            >
+              <i
+                class="flaticon-down-arrow large pulse"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+          name="experience"
+        >
+          <div
+            class="ml-3 header-icon underlined col-12"
+          >
+            <i
+              class="flaticon-coding-1 xlarge"
+            />
+          </div>
+          <div
+            class="container-fluid content-item"
+          >
+            <div
+              class="row justify-content-start"
+            >
+              <div
+                class="col-auto"
+              >
+                <h4>
+                  Software Development Engineer Intern
+                </h4>
+                <h6>
+                  Expedia Group
+                </h6>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-xl-9 col-lg-9 col-md-9 col-12 mb-2"
+              >
+                <p>
+                  Worked on Expedia's Virtual Agent Control team tasked with creating, testing, and deploying a rich information display within a configurable, embeddable UI framework. Worked closely with UI/UX, product management, and senior engineers in order to implement a refund card with cross browser and unit testing.
+                </p>
+              </div>
+              <div
+                class="col-xl-3 col-lg-3 col-md-3 col-12"
+              >
+                <p
+                  class="bold"
+                >
+                  Jun 2020 - Aug 2020
+                </p>
+                <h6>
+                  React, JavaScript, HTML, SASS, Selenium, Jest, Visual Studio Code
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="container-fluid content-item"
+          >
+            <div
+              class="row justify-content-start"
+            >
+              <div
+                class="col-auto"
+              >
+                <h4>
+                  Web Development Intern
+                </h4>
+                <h6>
+                  Bonsai Media Group
+                </h6>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-xl-9 col-lg-9 col-md-9 col-12 mb-2"
+              >
+                <p>
+                  Utilized front-end technologies to deliver dynamic, client customized CMS sites. Through close collaboration with product managers, SEO specialists, and company management, I achieved successful E-commerce sites via Shopify and WordPress.
+                </p>
+              </div>
+              <div
+                class="col-xl-3 col-lg-3 col-md-3 col-12"
+              >
+                <p
+                  class="bold"
+                >
+                  Nov 2018 - Aug 2019
+                </p>
+                <h6>
+                  JavaScript, HTML/CSS, SQL, Shopify, Wordpress, Visual Studio
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+          name="projects"
+        >
+          <div
+            class="ml-3 header-icon underlined col-12"
+          >
+            <i
+              class="flaticon-coding xlarge"
+            />
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-4 col-xl-4 content-card"
+          >
+            <div
+              class="img"
+            />
+            <div
+              class="text"
+            >
+              <h4>
+                website.v2
+              </h4>
+              <h6>
+                A UI focused, responsive app using modern technologies
+              </h6>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-4 col-xl-4 content-card"
+          >
+            <div
+              class="img"
+            />
+            <div
+              class="text"
+            >
+              <h4>
+                QueryCreator
+              </h4>
+              <h6>
+                Frontend build for a PHP backend to build valid SQL
+              </h6>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-4 col-xl-4 content-card"
+          >
+            <div
+              class="img"
+            />
+            <div
+              class="text"
+            >
+              <h4>
+                Website
+              </h4>
+              <h6>
+                My first four iterations of a basic HTML/CSS/JS site
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+          name="education"
+        >
+          <div
+            class="ml-3 header-icon underlined col-12"
+          >
+            <i
+              class="flaticon-graduation xlarge"
+            />
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 education-item"
+          >
+            <div
+              class="row justify-content-start"
+            >
+              <div
+                class="col-auto"
+              >
+                <h4>
+                  Seattle University
+                </h4>
+                <h6>
+                  B.S. Computer Science, Mathematics Minor
+                </h6>
+              </div>
+            </div>
+            <div
+              class="row"
+            />
+          </div>
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 education-item"
+          >
+            <div
+              class="row justify-content-start"
+            >
+              <div
+                class="col-auto"
+              >
+                <h4>
+                  York School
+                </h4>
+                <h6>
+                  High School Diploma
+                </h6>
+              </div>
+            </div>
+            <div
+              class="row"
+            />
+          </div>
+        </div>
+        <div
+          class="row align-items-center"
+          name="contact"
+        >
+          <div
+            class="col-12 text-center contact"
+          >
+            <div>
+              <h1>
+                Lets Talk!
+              </h1>
+              <div
+                class="social-media-links d-flex justify-content-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/joseph-witt-52a960171/"
+                  name="linkedin"
+                >
+                  <i
+                    class="flaticon-linkedin large"
+                  />
+                </a>
+                <a
+                  href="mailto:jackwittbiz@gmail.com"
+                  name="email"
+                >
+                  <i
+                    class="flaticon-email large"
+                  />
+                </a>
+                <a
+                  href="https://github.com/jQwitt"
+                  name="github"
+                >
+                  <i
+                    class="flaticon-browser large"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 text-center content-footer"
+          >
+            <p>
+              Font generated by
+              <a
+                href="https://www.flaticon.com"
+              >
+                 flaticon.com
+              </a>
+            </p>
+            <p>
+              Under
+              <a
+                href="http://creativecommons.org/licenses/by/3.0/"
+              >
+                 CC,
+              </a>
+              <a
+                data-file="017-right-arrow"
+                href="https://www.flaticon.com/authors/smashicons"
+              >
+                Smashicons,
+              </a>
+              <a
+                data-file="019-coding-1"
+                href="https://www.flaticon.com/authors/becris"
+              >
+                Becris
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

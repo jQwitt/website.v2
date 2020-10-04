@@ -2,7 +2,32 @@
 @import './sizing';
 
 .social-media-links {
+  a {
+    text-decoration: none;
+    border: $half solid $white;
+    margin: $one;
+    transition: border-color 0.2s, padding 0.2s;
+  }
   i {
     color: black;
+    transition: color 0.2s;
+  }
+  a[name='linkedin']:hover {
+    border-color: $media_blue;
+    i {
+      color: $media_blue;
+    }
+  }
+  a[name='email']:hover {
+    border-color: $media_red;
+    i {
+      color: $media_red;
+    }
+  }
+  a[name='github']:hover {
+    border-color: $media_green;
+    i {
+      color: $media_green;
+    }
   }
 }

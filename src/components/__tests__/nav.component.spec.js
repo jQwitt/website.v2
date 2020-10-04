@@ -2,6 +2,7 @@ import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import { Navigation } from '../index';
 
+global.scrollTo = jest.fn();
 afterEach(cleanup);
 describe('Navigation renders correctly', () => {
   test('snapshot', () => {
@@ -29,10 +30,10 @@ describe('Navigation renders correctly', () => {
 
   it('renders correct items', () => {
     const { getByText } = render(<Navigation />);
+    const links = ['experience', 'projects', 'education', 'contact'];
     expect(getByText('website.v2')).toBeTruthy();
-    expect(getByText('experience')).toBeTruthy();
-    expect(getByText('projects')).toBeTruthy();
-    expect(getByText('education')).toBeTruthy();
-    expect(getByText('contact')).toBeTruthy();
+    links.forEach((l) => {
+      expect(getByText(l)).toBeTruthy();
+    });
   });
 });

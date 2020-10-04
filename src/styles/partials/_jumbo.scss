@@ -19,4 +19,14 @@
   .main-icon {
     position: absolute;
   }
+  div:last-child {
+    border-top: solid $half $white;
+    transition: border-color 0.2s;
+    &:hover {
+      border-color: $black;
+      i {
+        animation: none;
+      }
+    }
+  }
 }

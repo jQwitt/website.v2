@@ -1,0 +1,32 @@
+@import './sizing';
+@import './colors';
+@import './animations';
+
+#loading-page {
+  z-index: 99998;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: $white;
+  text-align: center;
+
+  #loading-icon {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    div {
+      height: $five;
+      width: $five;
+      margin: 0 auto;
+      border-radius: $five;
+      border: $one solid $black;
+      border-top: $one solid red;
+      animation: spin 1s linear infinite;
+    }
+  }
+}
