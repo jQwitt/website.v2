@@ -1,6 +1,9 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import { PageLink } from '../index';
+import PageLink from '../page-link.component';
+import scrollToName from '../../scripts/scrollToName';
+
+jest.mock('../../scripts/scrollToName', () => jest.fn());
 
 afterEach(cleanup);
 describe('PageLink', () => {
@@ -10,14 +13,13 @@ describe('PageLink', () => {
   });
 
   it('renders props correctly', () => {
-    const { getByText } = render(<PageLink nameToLink={'test'} />);
+    const { getByText } = render(<PageLink nameToLink="test" />);
     expect(getByText('test')).toBeTruthy();
   });
 
   it('calls scrollToName', () => {
-    const scrollToName = jest.fn();
-    const { container, getByText } = render(<PageLink nameToLink={'test'} />);
-    fireEvent.click(container.firstChild);
-    expect(scrollToName).toHaveBeenCalled;
+    const { getByText } = render(<PageLink nameToLink="test" />);
+    fireEvent.click(getByText('test'));
+    expect(scrollToName).toHaveBeenCalled();
   });
 });

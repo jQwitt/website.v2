@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { ContentItem } from '../index';
+import ContentItem from '../content-item.component';
 
 afterEach(cleanup);
 describe('ContentItem renders correctly', () => {
@@ -27,7 +27,7 @@ describe('ContentItem renders correctly', () => {
       description: 'description',
     };
     const { getByText } = render(
-      <ContentItem description={data.description} />
+      <ContentItem description={data.description} />,
     );
     expect(getByText(data.description)).toBeTruthy();
   });
@@ -61,7 +61,7 @@ describe('ContentItem renders correctly', () => {
         description={data.description}
         dateRange={data.dateRange}
         misc={data.misc}
-      />
+      />,
     );
     expect(getByText(data.title)).toBeTruthy();
     expect(getByText(data.subTitle)).toBeTruthy();

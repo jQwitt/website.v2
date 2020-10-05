@@ -1,5 +1,7 @@
 import React from 'react';
-import { PageLink, SocialMedia, IconChange } from './index';
+import PageLink from './page-link.component';
+import SocialMedia from './social-media.component';
+import IconChange from './icon-change.component';
 import '../styles/partials/_navigation.scss';
 import '../styles/flaticon.css';
 
@@ -13,7 +15,8 @@ class Navigation extends React.Component {
   }
 
   toggleContainer() {
-    this.setState({ expanded: !this.state.expanded });
+    const { expanded } = this.state;
+    this.setState({ expanded: !expanded });
   }
 
   render() {
@@ -23,7 +26,7 @@ class Navigation extends React.Component {
         <div className="col-md-12 align-self-start">
           <h1 className="underlined padded">website.v2</h1>
           <div
-            className={'navigation-links' + (!expanded ? ' hidden-mobile' : '')}
+            className={`navigation-links${!expanded ? ' hidden-mobile' : ''}`}
             data-testid="containerPageLinks"
           >
             <PageLink nameToLink="experience" />
@@ -33,10 +36,9 @@ class Navigation extends React.Component {
           </div>
         </div>
         <div
-          className={
-            'col-12 align-self-end bottom-right-mobile' +
-            (!expanded ? ' hidden-mobile' : '')
-          }
+          className={`col-12 align-self-end bottom-right-mobile${
+            !expanded ? ' hidden-mobile' : ''
+          }`}
           data-testid="containerSocialLinks"
         >
           <SocialMedia justifyContent="center" />

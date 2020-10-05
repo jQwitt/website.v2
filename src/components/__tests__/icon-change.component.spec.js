@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import { IconChange } from '../index';
+import IconChange from '../icon-change.component';
 
 afterEach(cleanup);
 describe('IconChange renders correctly', () => {
@@ -22,19 +22,19 @@ describe('IconChange renders correctly', () => {
       secondIcon: 'subTract',
     };
     const { container, getByTestId } = render(
-      <IconChange firstIcon={data.firstIcon} secondIcon={data.secondIcon} />
+      <IconChange firstIcon={data.firstIcon} secondIcon={data.secondIcon} />,
     );
     fireEvent.click(container.firstChild);
     expect(
       getByTestId('togglesIcon').classList.contains(
-        'flaticon-' + data.secondIcon
-      )
+        `flaticon-${data.secondIcon}`,
+      ),
     ).toBe(true);
     fireEvent.click(container.firstChild);
     expect(
       getByTestId('togglesIcon').classList.contains(
-        'flaticon-' + data.firstIcon
-      )
+        `flaticon-${data.firstIcon}`,
+      ),
     ).toBe(true);
   });
 });

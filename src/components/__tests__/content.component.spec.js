@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { Content } from '../index';
+import Content from '../content.component';
 
 afterEach(cleanup);
 

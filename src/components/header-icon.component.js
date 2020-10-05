@@ -7,15 +7,15 @@ const HeaderIcon = (props) => {
     icon = 'add',
     size = 'xlarge',
     underline = true,
-    fullWidth = true,
+    fullWidth = true
   } = props;
-  const classNames = 'flaticon-' + icon + ' ' + size;
+  const classNames = `flaticon-${icon} ${size}`;
   return (
     <div
       className={
-        'ml-3 header-icon' +
-        (underline ? ' underlined' : '') +
-        (fullWidth ? ' col-12' : ' col-6')
+        `ml-3 header-icon${
+          underline ? ' underlined' : ''
+        }${fullWidth ? ' col-12' : ' col-6'}`
       }
     >
       <i className={classNames} />

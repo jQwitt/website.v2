@@ -1,7 +1,9 @@
 import React from 'react';
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import { Jumbotron } from '../index';
-import { scrollToName } from '../../scripts';
+import Jumbotron from '../jumbotron.component';
+import scrollToName from '../../scripts/scrollToName';
+
+jest.mock('../../scripts/scrollToName', () => jest.fn());
 
 afterEach(cleanup);
 describe('Jumbotron renders correctly', () => {
@@ -11,9 +13,8 @@ describe('Jumbotron renders correctly', () => {
   });
 
   it('calls scrollToName', () => {
-    const scrollToName = jest.fn();
-    const { container, getByText } = render(<Jumbotron />);
+    const { container } = render(<Jumbotron />);
     fireEvent.click(container.firstChild.lastChild);
-    expect(scrollToName).toHaveBeenCalled;
+    expect(scrollToName).toHaveBeenCalled();
   });
 });

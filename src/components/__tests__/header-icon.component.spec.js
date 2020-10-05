@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { HeaderIcon } from '../index';
+import HeaderIcon from '../header-icon.component';
 
 afterEach(cleanup);
 describe('HeaderIcon renders correctly', () => {

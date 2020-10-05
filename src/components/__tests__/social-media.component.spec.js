@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { SocialMedia } from '../index';
+import SocialMedia from '../social-media.component';
 
 afterEach(cleanup);
 describe('SocialMedia renders correctly', () => {
@@ -15,7 +15,7 @@ describe('SocialMedia renders correctly', () => {
     data.justifyContent.forEach((cl) => {
       const { container } = render(<SocialMedia justifyContent={cl} />);
       expect(
-        container.firstChild.classList.contains('justify-content-' + cl)
+        container.firstChild.classList.contains(`justify-content-${cl}`),
       ).toBe(true);
     });
   });
