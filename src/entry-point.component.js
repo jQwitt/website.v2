@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navigation, Content } from './components/index';
+import Navigation from './components/nav.component';
+import Content from './components/content.component';
 import './styles/partials/_common.scss';
 import loadContent from './scripts/loader';
 

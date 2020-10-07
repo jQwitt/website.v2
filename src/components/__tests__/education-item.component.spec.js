@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { EducationItem } from '../index';
+import EducationItem from '../education-item.component';
 
 afterEach(cleanup);
 describe('EducationItem renders correctly', () => {
@@ -27,7 +27,7 @@ describe('EducationItem renders correctly', () => {
       description: 'description',
     };
     const { getByText } = render(
-      <EducationItem description={data.description} />
+      <EducationItem description={data.description} />,
     );
     expect(getByText(data.description)).toBeTruthy();
   });
@@ -43,7 +43,7 @@ describe('EducationItem renders correctly', () => {
         title={data.title}
         subTitle={data.subTitle}
         description={data.description}
-      />
+      />,
     );
     expect(getByText(data.title)).toBeTruthy();
     expect(getByText(data.subTitle)).toBeTruthy();

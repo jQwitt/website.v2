@@ -3,7 +3,9 @@ import '../styles/partials/_content-item.scss';
 import '../styles/flaticon.css';
 
 const ContentItem = (props) => {
-  const { title, subTitle, description, dateRange, misc } = props;
+  const {
+    title, subTitle, description, dateRange, misc
+  } = props;
   return (
     <div className="container-fluid content-item">
       <div className="row justify-content-start">

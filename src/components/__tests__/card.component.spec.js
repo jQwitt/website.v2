@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { Card } from '../index';
+import Card from '../card.component';
 
 afterEach(cleanup);
 describe('Card renders correctly', () => {
@@ -28,7 +28,7 @@ describe('Card renders correctly', () => {
       subTitle: 'description',
     };
     const { getByText } = render(
-      <Card title={data.title} subTitle={data.subTitle} />
+      <Card title={data.title} subTitle={data.subTitle} />,
     );
     expect(getByText(data.title)).toBeTruthy();
     expect(getByText(data.subTitle)).toBeTruthy();

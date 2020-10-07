@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import { Footer } from '../index';
+import Footer from '../footer.component';
 
 afterEach(cleanup);
 describe('Footer renders correctly', () => {

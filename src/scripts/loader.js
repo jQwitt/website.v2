@@ -3,9 +3,8 @@ export default function revealContent() {
   const animateLoadingPage = () => {
     const loader = document.getElementById('loading-page');
     if (loader) {
-      const id = setInterval(moveUp, 10);
-      let opacity = 1;
-      function moveUp() {
+      let { opacity } = loader.style;
+      const id = setInterval(() => {
         if (opacity < 0.1) {
           clearInterval(id);
           loader.style.display = 'none';
@@ -13,7 +12,7 @@ export default function revealContent() {
           opacity -= 0.01;
           loader.style.opacity = opacity;
         }
-      }
+      }, 10);
     }
   };
 

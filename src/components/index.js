@@ -11,7 +11,7 @@ import EducationItem from './education-item.component';
 import Contact from './contact.component';
 import Footer from './footer.component';
 
-export {
+export default {
   Navigation,
   PageLink,
   SocialMedia,

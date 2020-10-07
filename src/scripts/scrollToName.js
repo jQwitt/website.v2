@@ -4,7 +4,7 @@ const scrollToName = (doc, win, name) => {
     const scrollLength = el.offsetTop - doc.body.scrollTop;
     win.scrollTo({
       top: scrollLength,
-      behavior: 'smooth',
+      behavior: 'smooth'
     });
   }
 };
